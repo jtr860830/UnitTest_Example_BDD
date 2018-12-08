@@ -1,0 +1,26 @@
+{
+  "name": "unittest_example_bdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js --require-module @babel/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtr860830/UnitTest_Example_BDD.git"
+  },
+  "author": "Jezrien Hsieh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jtr860830/UnitTest_Example_BDD/issues"
+  },
+  "homepage": "https://github.com/jtr860830/UnitTest_Example_BDD#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "@babel/register": "^7.0.0",
+    "chai": "^4.2.0",
+    "cucumber": "^5.0.3"
+  }
+}
